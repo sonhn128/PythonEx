@@ -1,5 +1,5 @@
 from random import sample
-numLst = sample(range(1,100), 10)
+numLst = sample(range(1,100), 20)
 print(numLst)
 for i in range(0, len(numLst) - 1):
     for j in range(i+1, len(numLst)):
